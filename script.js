@@ -3,7 +3,7 @@
 // 1. Deploy the Google Apps Script (see apps-script/Code.gs + README.md).
 // 2. Paste the deployed Web App URL below (it looks like:
 //    https://script.google.com/macros/s/AKfyc.../exec ).
-const SCRIPT_URL = "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxYdR1N-qWKiGQuaoUFMBdO7nfkO3fUXBIWIYEGsjDFj14TOiEiaROmP2eVfJk_C2n2/exec";
 
 document.getElementById("year").textContent = new Date().getFullYear();
 
