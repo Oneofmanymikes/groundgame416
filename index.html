@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ground Game — Political Consulting</title>
+  <meta name="description" content="Ground Game is a political consulting firm helping campaigns win with strategy, field organizing, and voter contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#top" class="brand">
+        <span class="brand-mark">GG</span>
+        <span class="brand-name">Ground&nbsp;Game</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Political Consulting</p>
+        <h1>Campaigns are won on the&nbsp;ground.</h1>
+        <p class="lede">
+          Ground Game helps candidates and causes build the strategy, organization, and
+          voter contact it takes to win. From the first door to election night, we run the
+          field operation so you can lead the campaign.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Start a conversation</a>
+          <a href="#services" class="btn btn-ghost">See what we do</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <div class="container">
+        <p class="eyebrow center">What we do</p>
+        <h2 class="section-title center">Built for the work that moves votes</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Campaign Strategy</h3>
+            <p>Path-to-victory math, message development, and a plan that fits your budget, your timeline, and your district.</p>
+          </article>
+          <article class="card">
+            <h3>Field &amp; GOTV</h3>
+            <p>Canvass programs, volunteer recruitment, turf cutting, and a get-out-the-vote operation that actually turns out your voters.</p>
+          </article>
+          <article class="card">
+            <h3>Voter Contact</h3>
+            <p>Phones, texts, and direct mail — integrated with your data so every contact is targeted and every dollar works harder.</p>
+          </article>
+          <article class="card">
+            <h3>Data &amp; Targeting</h3>
+            <p>Voter file management, modeling, and reporting that tell you who to talk to and whether your program is working.</p>
+          </article>
+          <article class="card">
+            <h3>Nomination Campaigns</h3>
+            <p>Membership sales, list building, and the organizing muscle to win a contested nomination before the general even starts.</p>
+          </article>
+          <article class="card">
+            <h3>Fundraising Support</h3>
+            <p>Call time planning, donor tracking, and the systems to keep your finance program on pace.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section-alt">
+      <div class="container about-inner">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2 class="section-title">We sweat the details so you can win the room.</h2>
+        </div>
+        <div class="about-body">
+          <p>
+            Ground Game is a political consulting firm based in Toronto. We work with
+            candidates, nomination contestants, and advocacy campaigns who need a partner
+            that understands both the strategy and the grind of field work.
+          </p>
+          <p>
+            We&rsquo;re hands-on. We build the plan, stand up the tools, train the volunteers,
+            and stay in the trenches with you through election day. No bloated retainers, no
+            cookie-cutter playbooks — just the operation your campaign needs.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container contact-inner">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact</p>
+          <h2 class="section-title">Tell us about your campaign</h2>
+          <p>
+            Running for office, weighing a nomination, or organizing a cause? Send us a note
+            and we&rsquo;ll get back to you. Every conversation is confidential.
+          </p>
+        </div>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required autocomplete="name" />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email" />
+          </div>
+          <div class="field">
+            <label for="phone">Phone <span class="optional">(optional)</span></label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" />
+          </div>
+          <div class="field">
+            <label for="message">How can we help?</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <!-- Honeypot: hidden from people, catches bots -->
+          <div class="hp" aria-hidden="true">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" tabindex="-1" autocomplete="off" />
+          </div>
+          <button type="submit" class="btn btn-primary" id="submit-btn">Send message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="brand-name">Ground&nbsp;Game</span>
+      <span class="footer-meta">Toronto &middot; <a href="mailto:michaelfontein@gmail.com">michaelfontein@gmail.com</a></span>
+      <span class="footer-copy">&copy; <span id="year"></span> Ground Game. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
