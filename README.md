@@ -1,7 +1,7 @@
 # Ground Game website
 
 A simple, single-page site for Ground Game (political consulting), with a contact
-form that emails inquiries to **michaelfontein@gmail.com** via Google Apps Script.
+form that emails inquiries to **michael@groundgame416.ca** via Google Apps Script.
 
 ```
 groundgame416-site/

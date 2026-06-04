@@ -12,7 +12,7 @@
  *   5. Copy the Web App URL into the website's script.js (SCRIPT_URL)
  */
 
-const TO_EMAIL = "michaelfontein@gmail.com";
+const TO_EMAIL = "michael@groundgame416.ca";
 const SUBJECT_PREFIX = "[Ground Game] New inquiry from ";
 
 function doPost(e) {

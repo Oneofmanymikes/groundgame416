@@ -58,7 +58,7 @@ form.addEventListener("submit", async (e) => {
     setStatus("Thanks — your message is on its way. We'll be in touch soon.", "success");
   } catch (err) {
     setStatus(
-      "Something went wrong. Please email michaelfontein@gmail.com directly.",
+      "Something went wrong. Please email michael@groundgame416.ca directly.",
       "error"
     );
   } finally {
