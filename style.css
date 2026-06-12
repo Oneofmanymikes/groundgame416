@@ -269,6 +269,14 @@ a:hover { text-decoration: underline; }
 .site-footer .brand-name { color: #fff; }
 .site-footer a { color: #fff; }
 .footer-copy { color: #8ea0bd; }
+.footer-address { font-style: normal; color: #c7d2e3; line-height: 1.5; }
+.contact-details {
+  font-style: normal;
+  margin-top: 20px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+.contact-details strong { color: var(--ink); }
 
 /* ===== Responsive ===== */
 @media (max-width: 860px) {
