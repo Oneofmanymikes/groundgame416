@@ -26,7 +26,7 @@ You only do this once. It's free and uses your own Gmail to send.
 4. Click **Deploy ▸ New deployment**.
    - Click the gear ⚙ next to "Select type" → choose **Web app**.
    - **Description:** anything (e.g. "v1").
-   - **Execute as:** **Me (michaelfontein@gmail.com)**.
+   - **Execute as:** **Me** (the Google account you're deploying from).
    - **Who has access:** **Anyone**.  ← important, or the form can't reach it.
    - Click **Deploy**.
 5. Google will ask you to **authorize** — approve it (it needs permission to send
